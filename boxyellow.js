@@ -3,7 +3,7 @@ class Box3 extends BaseClass
   constructor(x,y,width,height)
   {
     super(x,y,width,height);
-    this.image = loadImage("yellowBlock.png");
+    this.image = loadImage("yellowBlock.PNG");
     this.visibility = 255;
   }
 
